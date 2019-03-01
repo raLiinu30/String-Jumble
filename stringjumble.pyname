@@ -32,5 +32,7 @@ print('You entered "'+str(enter)+'". Now jumble it: ')
 X = enter
 print(X[::-1])
 Y = len(X)
-print(X[::-int(Y)])
+Z = [enter]
+A = Z[-1]
+print(X[0::-Y])
 
