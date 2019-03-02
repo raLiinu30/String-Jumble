@@ -1,7 +1,7 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: <sources>
+Author: Rain Liu
+Credit: https://stackoverflow.com/questions/12336105/python-reverse-list 
 
 Assignment:
 
@@ -31,6 +31,5 @@ X = enter
 print(X[::-1])
 revword = " ".join(X.split()[::-1])
 print(revword)
-revword1 = " ".join(X.split()[60:0:-1])
 revword1 = ' '.join(word[::-1] for word in X.split())
 print(revword1)
